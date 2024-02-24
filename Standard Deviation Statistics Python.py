@@ -7,7 +7,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 engine = pyttsx3.init()
 
-with open('Standard_devData.csv', newline= '') as f:
+with open('F:\Python works\Python Program 2\WhiteHatJt\Graph_Python_Project\Standard Deviation\data.csv', newline= '') as f:
     reader = csv.reader(f)
     data_file = list(reader)
 data = data_file[0]
